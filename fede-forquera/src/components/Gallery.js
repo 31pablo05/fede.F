@@ -1,11 +1,10 @@
 import React from 'react';
-import '../styles/Gallery.css';
 
 function Gallery() {
     return (
-        <section id="gallery" className="gallery">
-            <h2>Gallery</h2>
-            <p>Explore my photo and video galleries.</p>
+        <section id="gallery" className="bg-white py-12">
+            <h2 className="text-3xl font-semibold text-center mb-4">Gallery</h2>
+            <p className="text-lg text-center">Explore my photo and video galleries.</p>
         </section>
     );
 }

@@ -1,11 +1,10 @@
 import React from 'react';
-import '../styles/PhotoGallery.css';
 
 function PhotoGallery() {
     return (
-        <section id="photo-gallery" className="photo-gallery">
-            <h2>Photo Gallery</h2>
-            <p>A collection of my photography.</p>
+        <section id="photo-gallery" className="bg-[#eef] py-12">
+            <h2 className="text-3xl font-semibold text-center mb-4">Photo Gallery</h2>
+            <p className="text-lg text-center">A collection of my photography.</p>
         </section>
     );
 }
