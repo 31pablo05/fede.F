@@ -4,7 +4,23 @@
 @tailwind utilities;
 
 body {
-
     margin: 0;
     padding: 0;
+}
+
+/* Animación typing */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.animate-typing {
+    animation: typing 2s steps(30) 1s 1 normal both;
+    border-right: 4px solid #fff; /* Esta línea puede ser modificada según tu diseño */
+    white-space: nowrap;
+    overflow: hidden;
 }
