@@ -32,23 +32,22 @@ function Home() {
         <div className="home">
             <Navbar />
 
-            <header className="relative flex items-center justify-center w-full h-screen overflow-hidden bg-gradient-to-r from-[#133838] to-[#2b6f6b]">
+            <header className="relative flex items-center justify-center w-full" style={{ height: '150vh' }}>
+
                 <div className="flex w-full h-full relative">
-                    <div 
-                        className="flex-1 bg-cover bg-center bg-no-repeat bg-opacity-50"
-                        style={{ backgroundImage: "url('/assets/images/fede10.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
-                    />
-                    <div 
-                        className="flex-1 bg-cover bg-center bg-no-repeat bg-opacity-50"
-                        style={{ backgroundImage: "url('/assets/images/fede17.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
-                    />
-                    <div 
-                        className="flex-1 bg-cover bg-center bg-no-repeat bg-opacity-50"
-                        style={{ backgroundImage: "url('/assets/images/fede7.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
-                    />
+                <div 
+    className="flex-1"
+    style={{ 
+        backgroundImage: `url('/assets/images/fede10.jpg')`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center -490px', // Ajuste con valor negativo en px
+        backgroundRepeat: 'no-repeat'
+    }}
+/>
+
                 </div>
 
-                <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 text-center text-white z-10">
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 text-center text-white z-10">
                     <h1 
                         data-aos="fade-up" 
                         data-aos-duration="1500" 
@@ -64,12 +63,9 @@ function Home() {
                         Learn More
                     </Link>
                 </div>
-
-                <div className="absolute top-0 left-0 w-full h-full blurred-background"></div>
             </header>
 
             <section className="gallery-section relative py-12 px-5 text-white overflow-hidden">
-                {/* Video de fondo que abarca ambas secciones */}
                 <video 
                     autoPlay 
                     loop 
@@ -80,12 +76,10 @@ function Home() {
                     Tu navegador no soporta videos HTML5.
                 </video>
 
-                {/* Capa de contenido */}
                 <div className="relative z-10">
                     <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">My Latest Work</h2>
 
-                    {/* Photo Gallery */}
-                    <div className="photo-gallery mb-12">
+                    <div className="photo-gallery mb-30 mt-20" >
                         <h3 className="text-2xl font-semibold text-center mb-4">Photo Gallery</h3>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                             {[jar1, go7, mc1, riv3, col10, mc2, mc5, vod6, neg2].map((src, index) => (
@@ -99,8 +93,7 @@ function Home() {
                         </div>
                     </div>
 
-                    {/* Video Gallery */}
-                    <div className="video-gallery">
+                    <div className="video-gallery pt-20 mt-20 mb-20">
                         <h3 className="text-2xl font-semibold text-center mb-4">Video Gallery</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {videoSources.map((videoId, index) => (
