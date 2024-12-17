@@ -22,7 +22,7 @@ function AboutMe() {
                         className="w-full md:w-1/2 h-auto rounded-lg shadow-lg mb-6 md:mb-0 transform transition-transform duration-300 hover:scale-105"
                     />
                     <div className="md:ml-8 text-white md:w-1/2">
-                        <h2 className="text-4xl font-bold mb-4 text-shadow-lg">Hello, I'm [Photographer's Name]</h2>
+                        <h2 className="text-4xl font-bold mb-4 text-shadow-lg">Hello, I'm Federico Forquera</h2>
                         <p className="text-lg leading-relaxed">
                             I'm a passionate photographer with a love for capturing moments that tell a story.
                         </p>
