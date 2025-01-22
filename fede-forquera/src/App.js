@@ -10,7 +10,6 @@ import PhotoGallery from './components/PhotoGallery';
 import VideoGallery from './components/VideoGallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import './i18n'; // Importa la configuración de i18next
 
 function App() {
     return (
