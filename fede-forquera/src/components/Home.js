@@ -5,16 +5,21 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // Importar las imágenes y el video
-import jar1 from '../assets/images/jar1.jpg';
-import go7 from '../assets/images/go7.jpg';
-import mc1 from '../assets/images/mc1.jpg';
-import riv3 from '../assets/images/riv3.jpg';
-import mc2 from '../assets/images/mc2.jpg';
-import mc5 from '../assets/images/mc5.jpg';
-import vod6 from '../assets/images/vod6.jpg';
-import neg2 from '../assets/images/neg2.jpg';
-import col10 from '../assets/images/BarrioHistóricoEnColonia/col10.jpg';
+import jar1 from '../assets/images/jardinJapones/jar1.webp';
+import go7 from '../assets/images/go7.webp';
+import mc1 from '../assets/images/mc1.webp';
+import riv3 from '../assets/images/riv3.webp';
+import mc2 from '../assets/images/mc2.webp';
+import mc5 from '../assets/images/mc5.webp';
+import vod6 from '../assets/images/vod6.webp';
+import neg2 from '../assets/images/neg2.webp';
+import vod2 from '../assets/images/vod2.webp';
+import col10 from '../assets/images/BarrioHistóricoEnColonia/col10.webp';
 import fondoVideo from '../assets/videos/fondoVideo.mp4';
+import video1 from '../assets/videos/vid1.mp4';
+import video2 from '../assets/videos/vid2.mp4';
+import video3 from '../assets/videos/vid3.mp4';
+import video4 from '../assets/videos/vid4.mp4';
 
 function Home() {
     useEffect(() => {
@@ -24,9 +29,8 @@ function Home() {
         };
     }, []);
 
-    const videoSources = useMemo(() => [
-        "VIDEO_ID_1", "VIDEO_ID_2", "VIDEO_ID_3", "VIDEO_ID_4"
-    ], []);
+    const videoSources = useMemo(() => [video1, video2, video3, video4], []);
+
 
     return (
         <div className="home">
@@ -40,7 +44,7 @@ function Home() {
     style={{ 
         backgroundImage: `url('/assets/images/fede10.jpg')`, 
         backgroundSize: 'cover', 
-        backgroundPosition: 'center -490px', // Ajuste con valor negativo en px
+        backgroundPosition: 'center -350px', // Ajuste con valor negativo en px
         backgroundRepeat: 'no-repeat'
     }}
 />
@@ -51,16 +55,16 @@ function Home() {
                     <h1 
                         data-aos="fade-up" 
                         data-aos-duration="1500" 
-                        className="text-5xl md:text-6xl font-bold mb-6 text-white font-poppins overflow-hidden border-r-2 border-pink-500 whitespace-nowrap animate-typing neon-glow"
+                        className="text-2xl md:text-6xl font-bold mb-6 text-white font-poppins overflow-hidden border-r-2 border-pink-500 whitespace-nowrap animate-typing neon-glow"
                     >
                         📸🎥 Photographer & Filmmaker
                     </h1>
 
-                    <p data-aos="fade-up" data-aos-duration="2000" className="text-lg md:text-xl font-light mb-8 opacity-90">
-                        Capturing moments that last a lifetime.
+                    <p data-aos="fade-up" data-aos-duration="2000" className="text-lg md:text-xl  font-light mb-8 opacity-90">
+                    "Capturando momentos que perduran para siempre."
                     </p>
                     <Link to="/about-me" className="inline-block bg-gradient-to-r from-[#fbcfe8] via-[#f472b6] to-[#9333ea] text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:scale-105 hover:bg-gradient-to-r transition-all duration-300">
-                        Learn More
+                        Leer más
                     </Link>
                 </div>
             </header>
@@ -77,12 +81,13 @@ function Home() {
                 </video>
 
                 <div className="relative z-10">
-                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">My Latest Work</h2>
+                    
 
-                    <div className="photo-gallery mb-30 mt-20" >
-                        <h3 className="text-2xl font-semibold text-center mb-4">Photo Gallery</h3>
+                    <div className="photo-gallery mb-10 mt-10" >
+                        <h3 className="text-3xl font-bold text-center mb-8 text-gray-800">📸 Galeria de Fotos</h3>
+                       
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                            {[jar1, go7, mc1, riv3, col10, mc2, mc5, vod6, neg2].map((src, index) => (
+                            {[jar1, go7, mc1, riv3, col10, mc2, mc5, vod6, neg2, vod2].map((src, index) => (
                                 <img 
                                     key={index} 
                                     src={src} 
@@ -94,23 +99,31 @@ function Home() {
                     </div>
 
                     <div className="video-gallery pt-20 mt-20 mb-20">
-                        <h3 className="text-2xl font-semibold text-center mb-4">Video Gallery</h3>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                            {videoSources.map((videoId, index) => (
-                                <div className="video-container relative group" key={index}>
-                                    <iframe 
-                                        src={`https://www.youtube.com/embed/${videoId}`} 
-                                        title={`video${index + 1}`} 
-                                        className="w-full h-56 rounded-lg group-hover:scale-105 group-hover:brightness-75 transition-all duration-300" 
-                                        frameBorder="0" 
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                                        allowFullScreen
-                                    ></iframe>
-                                    <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-300"></div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
+    <h3 className="text-3xl font-bold text-center mb-8 text-gray-800">🎬 Galeria de Videos</h3>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-5">
+        {videoSources.map((videoSrc, index) => (
+            <div 
+                className="video-container relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-[#379299]" 
+                key={index}
+            >
+                <video 
+                    src={videoSrc} 
+                    controls 
+                    className="w-full h-[600px] object-cover rounded-t-lg" 
+                    style={{ objectFit: "contain" }}  // Mantiene la relación de aspecto sin perder calidad
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-40 group-hover:opacity-60 transition-opacity duration-300"></div>
+                <p 
+                    className="absolute bottom-0 left-0 right-0 bg-[#379299] bg-opacity-90 text-white text-center py-2 font-medium text-sm transition-transform duration-300 group-hover:translate-y-0 transform translate-y-full"
+                >
+                    Video {index + 1}
+                </p>
+            </div>
+        ))}
+    </div>
+</div>
+
+
                 </div>
             </section>
         </div>

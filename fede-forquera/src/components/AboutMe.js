@@ -1,14 +1,14 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import profileImg1 from '../assets/images/fede/fede7.jpg';
-import profileImg2 from '../assets/images/fede/fede12.jpg';
-import profileImg3 from '../assets/images/fede/fede5.jpg';
-import profileImg4 from '../assets/images/fede/fede16.jpg';
-import profileImg5 from '../assets/images/fede/fede11.jpg';
-import profileImg6 from '../assets/images/fede/fede3.jpg';
-import profileImg7 from '../assets/images/fede/fede13.jpg';
-import profileImg8 from '../assets/images/fede/fede14.jpg';
+import profileImg1 from '../assets/images/fede/fede7.webp';
+import profileImg2 from '../assets/images/fede/fede12.webp';
+import profileImg3 from '../assets/images/fede/fede5.webp';
+import profileImg4 from '../assets/images/fede/fede16.webp';
+import profileImg5 from '../assets/images/fede/fede11.webp';
+import profileImg6 from '../assets/images/fede/fede3.webp';
+import profileImg7 from '../assets/images/fede/fede13.webp';
+import profileImg8 from '../assets/images/fede/fede14.webp';
 
 function AboutMe() {
     return (
@@ -22,9 +22,10 @@ function AboutMe() {
                         className="w-full md:w-1/2 h-auto rounded-lg shadow-lg mb-6 md:mb-0 transform transition-transform duration-300 hover:scale-105"
                     />
                     <div className="md:ml-8 text-white md:w-1/2">
-                        <h2 className="text-4xl font-bold mb-4 text-shadow-lg">Hello, I'm Federico Forquera</h2>
+                        <h2 className="text-4xl font-bold mb-4 text-shadow-lg">Hola mi nombre es Federico Forquera</h2>
                         <p className="text-lg leading-relaxed">
-                            I'm a passionate photographer with a love for capturing moments that tell a story.
+                            
+                            Soy un fotógrafo apasionado por capturar momentos que cuentan una historia.
                         </p>
                     </div>
                 </div>
@@ -37,9 +38,9 @@ function AboutMe() {
                         className="w-full md:w-1/2 h-auto rounded-lg shadow-lg mb-6 md:mb-0 transform transition-transform duration-300 hover:scale-105"
                     />
                     <div className="md:mr-8 text-white md:w-1/2">
-                        <h2 className="text-4xl font-bold mb-4 text-shadow-lg">Passionate About Photography</h2>
+                        <h2 className="text-4xl font-bold mb-4 text-shadow-lg">Apasionado por la Fotografía</h2>
                         <p className="text-lg leading-relaxed">
-                            Photography is my passion. From portraits to landscapes, my goal is to tell compelling stories through each shot.
+                        La fotografía es mi pasión. Desde retratos hasta paisajes, mi objetivo es contar historias cautivadoras a través de cada toma.
                         </p>
                     </div>
                 </div>
@@ -51,9 +52,11 @@ function AboutMe() {
                         <div><img src={profileImg6} alt="Close-up portrait" className="rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105" /></div>
                         <div><img src={profileImg7} alt="Cityscape with sunset" className="rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105" /></div>
                         <div><img src={profileImg8} alt="Outdoor event" className="rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105" /></div>
+                        <div><img src={profileImg3} alt="Street photography" className="rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105" /></div>
+                        <div><img src={profileImg4} alt="Portrait with bokeh background" className="rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105" /></div>
                     </Carousel>
                     <p className="text-lg text-center text-white leading-relaxed md:w-3/4 mt-6">
-                        Photography allows me to see the world from different perspectives and capture moments often overlooked.
+                    La fotografía me permite ver el mundo desde diferentes perspectivas y capturar momentos que a menudo pasan desapercibidos.
                     </p>
                 </div>
             </div>
