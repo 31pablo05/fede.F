@@ -131,13 +131,13 @@ function Portfolio() {
 
                         {showImagesD && (
                             <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                {/* Aquí debes cambiar las rutas de las imágenes de este proyecto */}
-                                <img src="/assets/images/googleTeatroCiego/go2.jpg" alt="Project image 2" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/googleTeatroCiego/go8.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/googleTeatroCiego/go4.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/googleTeatroCiego/go5.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/googleTeatroCiego/go6.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/googleTeatroCiego/go7.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/googleTeatroCiego/go2.jpg" alt="Escenario oscuro del Teatro Ciego con luces suaves" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/googleTeatroCiego/go8.jpg" alt="Actores en escena representando una obra en el Teatro Ciego" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/googleTeatroCiego/go4.jpg" alt="Detalle de la interpretación de actores en el Teatro Ciego" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/googleTeatroCiego/go5.jpg" alt="Público disfrutando de una obra en el Teatro Ciego" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/googleTeatroCiego/go6.jpg" alt="Escena artística en el Teatro Ciego" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/googleTeatroCiego/go7.jpg" alt="Vista del escenario vacío del Teatro Ciego antes de la función" className="w-full h-52 object-cover" />
+
                             </div>
                         )}
                     </div>
@@ -159,13 +159,13 @@ function Portfolio() {
 
                         {showImagesE && (
                             <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                {/* Aquí debes cambiar las rutas de las imágenes de este proyecto */}
-                                <img src="/assets/images/evento-mcdonalds/mc1.jpg" alt="Project image 2" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/evento-mcdonalds/mc2.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/evento-mcdonalds/mc3.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/evento-mcdonalds/mc4.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/evento-mcdonalds/mc10.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/evento-mcdonalds/mc8.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/evento-mcdonalds/mc1.jpg" alt="Hamburguesa McDonald's en un evento" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/evento-mcdonalds/mc2.jpg" alt="Participantes disfrutando de la comida en el evento McDonald's" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/evento-mcdonalds/mc3.jpg" alt="Preparación de hamburguesas para el evento" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/evento-mcdonalds/mc4.jpg" alt="Cocinero sirviendo hamburguesas en el evento" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/evento-mcdonalds/mc10.jpg" alt="Mesa con comida y bebidas durante el evento McDonald's" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/evento-mcdonalds/mc8.jpg" alt="Grupo de personas disfrutando el evento McDonald's" className="w-full h-52 object-cover" />
+
                             </div>
                         )}
                     </div>
@@ -187,13 +187,13 @@ function Portfolio() {
 
                         {showImagesF && (
                             <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                {/* Aquí debes cambiar las rutas de las imágenes de este proyecto */}
-                                <img src="/assets/images/Vodcast/vod1.jpg" alt="Project image 2" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/Vodcast/vod2.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/Vodcast/vod3.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/Vodcast/vod4.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/Vodcast/vod5.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
-                                <img src="/assets/images/Vodcast/vod7.jpg" alt="Project image 3" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/Vodcast/vod1.jpg" alt="Escena grabada para un episodio del Vodcast" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/Vodcast/vod2.jpg" alt="Entrevista realizada en el estudio para el Vodcast" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/Vodcast/vod3.jpg" alt="Panel de discusión en el Vodcast" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/Vodcast/vod4.jpg" alt="Presentador del Vodcast en el set" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/Vodcast/vod5.jpg" alt="Momentos de grabación en el estudio del Vodcast" className="w-full h-52 object-cover" />
+                                <img src="/assets/images/Vodcast/vod7.jpg" alt="Equipo técnico preparando la grabación del Vodcast" className="w-full h-52 object-cover" />
+
                             </div>
                         )}
                     </div>

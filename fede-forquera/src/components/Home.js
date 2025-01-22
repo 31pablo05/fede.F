@@ -16,6 +16,7 @@ import neg2 from '../assets/images/neg2.webp';
 import vod2 from '../assets/images/vod2.webp';
 import col10 from '../assets/images/BarrioHistóricoEnColonia/col10.webp';
 import fondoVideo from '../assets/videos/fondoVideo.mp4';
+import fondoHome from '../assets/images/fede10.webp';
 import video1 from '../assets/videos/vid1.mp4';
 import video2 from '../assets/videos/vid2.mp4';
 import video3 from '../assets/videos/vid3.mp4';
@@ -42,7 +43,7 @@ function Home() {
                 <div 
     className="flex-1"
     style={{ 
-        backgroundImage: `url('/assets/images/fede10.jpg')`, 
+        backgroundImage: `url('${fondoHome}')`, 
         backgroundSize: 'cover', 
         backgroundPosition: 'center -350px', // Ajuste con valor negativo en px
         backgroundRepeat: 'no-repeat'

@@ -5,7 +5,7 @@ import { ReactComponent as FacebookIcon } from '../svg/icons8-facebook.svg';
 
 const socialLinks = [
     {
-        href: 'https://www.linkedin.com',
+        href: ' https://www.linkedin.com/in/federico-forquera-9280b8203/',
         label: 'LinkedIn',
         icon: <LinkedInIcon className="w-8 h-8" aria-label="LinkedIn" />,
         bgColor: 'bg-[#0274b3]',
@@ -13,7 +13,7 @@ const socialLinks = [
         tooltip: 'LinkedIn'
     },
     {
-        href: 'https://www.instagram.com',
+        href: 'https://www.instagram.com/fede_forquera/',
         label: 'Instagram',
         icon: <InstagramIcon className="w-8 h-8" aria-label="Instagram" />,
         bgColor: 'bg-gradient-to-br from-[#405de6] to-[#fd1f1f]',
@@ -21,7 +21,7 @@ const socialLinks = [
         tooltip: 'Instagram'
     },
     {
-        href: 'https://www.facebook.com',
+        href: 'https://www.facebook.com/fede.forquera',
         label: 'Facebook',
         icon: <FacebookIcon className="w-8 h-8" aria-label="Facebook" />,
         bgColor: 'bg-[#3b5998]',
@@ -64,7 +64,7 @@ function Footer() {
                     <p className="text-lg">Dirección: Trelew, Chubut, Argentina</p>
                     <p className="text-lg">Teléfono: +54 11 456-7890</p>
                     <p className="text-lg">
-                        Email: <a href="mailto:fedeforquera@gmail.com" className="text-blue-400 hover:underline">fedeforquera@gmail.com</a>
+                        Email: <a href="mailto:forquerafederico@gmail.com" className="text-blue-400 hover:underline">fedeforquera@gmail.com</a>
                     </p>
                 </div>
                 <div className="mt-8 text-center">
