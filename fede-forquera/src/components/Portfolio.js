@@ -17,7 +17,7 @@ function Portfolio() {
     return (
         <section id="portfolio" className="bg-blue-100 py-12">
             {/* Header */}
-            <h2 className="text-4xl font-bold text-center mb-6 text-gray-800">Portfolio</h2>
+            <h2 className="text-4xl font-bold text-center mb-6 text-gray-800">Mis Trabajos y Experinecias</h2>
             <p className="text-lg text-center text-gray-600 mb-10">Descubre algunos de mis proyectos más creativos e impactantes.</p>
 
             {/* Portfolio Grid */}
