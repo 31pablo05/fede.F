@@ -8,6 +8,13 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const navLinks = [
+    { name: "Inicio", path: "/Inicio" },
+    { name: "Sobre mi", path: "/about-me" },
+    { name: "Portafolio", path: "/portfolio" },
+    { name: "Contacto", path: "/contact" }
+  ];
+
   return (
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
@@ -40,14 +47,14 @@ const Navbar = () => {
 
         {/* Menú principal */}
         <ul className="hidden md:flex space-x-6">
-          {["Inicio", "Sobre mi", "Portafolio", "Contacto"].map((item, index) => (
+          {navLinks.map((item, index) => (
             <li key={index}>
               <Link
-                to={`/${item.toLowerCase().replace(" ", "-")}`}
+                to={item.path}
                 className="relative text-gray-300 font-semibold transition-all duration-300 
                 hover:text-[#379299] hover:underline hover:underline-offset-8"
               >
-                {item}
+                {item.name}
               </Link>
             </li>
           ))}
@@ -58,14 +65,14 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {["Inicio", "Sobre mi", "Portafolio", "Contacto"].map((item, index) => (
+            {navLinks.map((item, index) => (
               <li key={index}>
                 <Link
-                  to={`/${item.toLowerCase().replace(" ", "-")}`}
+                  to={item.path}
                   onClick={() => setIsOpen(false)}
                   className="block text-gray-300 font-semibold hover:text-[#379299] hover:underline hover:underline-offset-8"
                 >
-                  {item}
+                  {item.name}
                 </Link>
               </li>
             ))}
