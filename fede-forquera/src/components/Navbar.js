@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { name: "Inicio", path: "/Inicio" },
+    { name: "Inicio", path: "/" },
     { name: "Sobre mi", path: "/AboutMe" },
     { name: "Portafolio", path: "/Portfolio" },
     { name: "Contacto", path: "/Contact" }
