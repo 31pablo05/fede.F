@@ -17,11 +17,11 @@ function AboutMe() {
           />
 
           {/* Texto: aparece primero en móviles, pero después en desktop */}
-          <div className="order-first md:order-last md:ml-8 text-white md:w-1/2">
-            <h2 className="text-4xl font-bold mb-4">
+          <div className="mt-6 order-first md:order-last md:ml-8 text-white md:w-1/2">
+            <h2 className="text-4xl font-bold mb-6">
               Hola, mi nombre es Federico Forquera
             </h2>
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed mb-6">
               Soy un fotógrafo apasionado por capturar momentos que cuentan una historia.
             </p>
           </div>
@@ -34,9 +34,10 @@ function AboutMe() {
             <h2 className="text-4xl font-bold mb-4">
               Apasionado por la Fotografía
             </h2>
-            <p className="text-lg leading-relaxed">
-              La fotografía es mi pasión. Desde retratos hasta paisajes, mi objetivo es contar historias cautivadoras a través de cada toma.
-            </p>
+            <p className="text-lg leading-relaxed mb-6 text-justify">
+  La fotografía es mi pasión. Desde retratos hasta paisajes, mi objetivo es contar historias cautivadoras a través de cada toma.
+</p>
+
           </div>
           {/* Imagen: aparece debajo en móviles y a la derecha en desktop */}
           <img 
