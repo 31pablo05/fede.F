@@ -8,14 +8,16 @@ import Card6 from './Card6';
 
 function Portfolio() {
   return (
-    <section id="portfolio" className="bg-blue-100 py-12">
+    <section id="portfolio" className="bg-blue-100 py-24">
       {/* Header */}
-      <h2 className="text-4xl font-bold text-center mb-6 text-gray-800">
-        Mis Trabajos y Experiencias
-      </h2>
-      <p className="text-lg text-center text-gray-600 mb-10">
-        Descubre algunos de mis proyectos más creativos e impactantes.
-      </p>
+      <h2 className="text-5xl font-extrabold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#379299] drop-shadow-md">
+  Mis Trabajos y Experiencias
+</h2>
+
+<p className="text-xl text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#379299] drop-shadow-sm mb-10">
+  Descubre algunos de mis proyectos más creativos e impactantes.
+</p>
+
 
       {/* Portfolio Grid */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">

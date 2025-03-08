@@ -6,7 +6,7 @@ const Card5 = () => {
   return (
     <div className="rounded-lg shadow-md bg-white overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <img 
-        src="/assets/images/evento-mcdonalds/mc6.jpg" 
+        src="/assets/images/eventoMC.webp/mc1.webp" 
         alt="Project preview" 
         className="w-full h-52 object-cover" 
       />
@@ -21,12 +21,15 @@ const Card5 = () => {
         </button>
         {showImages && (
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <img src="/assets/images/evento-mcdonalds/mc1.jpg" alt="Evento - Hamburguesa McDonald's" className="w-full h-52 object-cover" />
-            <img src="/assets/images/evento-mcdonalds/mc2.jpg" alt="Evento - Participantes disfrutando" className="w-full h-52 object-cover" />
-            <img src="/assets/images/evento-mcdonalds/mc3.jpg" alt="Evento - Preparación de hamburguesas" className="w-full h-52 object-cover" />
-            <img src="/assets/images/evento-mcdonalds/mc4.jpg" alt="Evento - Cocinero sirviendo hamburguesas" className="w-full h-52 object-cover" />
-            <img src="/assets/images/evento-mcdonalds/mc10.jpg" alt="Evento - Mesa con comida y bebidas" className="w-full h-52 object-cover" />
-            <img src="/assets/images/evento-mcdonalds/mc8.jpg" alt="Evento - Grupo de personas disfrutando" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc1.webp" alt="Evento - Hamburguesa McDonald's" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc2.webp" alt="Evento - Participantes disfrutando" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc3.webp" alt="Evento - Preparación de hamburguesas" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc4.webp" alt="Evento - Cocinero sirviendo hamburguesas" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc5.webp" alt="Evento - Mesa con comida y bebidas" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc6.webp" alt="Evento - Grupo de personas disfrutando" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc8.webp" alt="Evento - Grupo de personas disfrutando" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc9.webp" alt="Evento - Grupo de personas disfrutando" className="w-full h-52 object-cover" />
+            <img src="/assets/images/eventoMC.webp/mc10.webp" alt="Evento - Grupo de personas disfrutando" className="w-full h-52 object-cover" />
           </div>
         )}
       </div>

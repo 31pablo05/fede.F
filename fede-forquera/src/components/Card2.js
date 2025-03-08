@@ -6,7 +6,7 @@ const Card2 = () => {
   return (
     <div className="rounded-lg shadow-md bg-white overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <img 
-        src="/assets/images/McDonalds2/mac2.jpg" 
+        src="/assets/images/McDonals2.webp/mac2.webp" 
         alt="Project preview" 
         className="w-full h-52 object-cover" 
       />
@@ -21,13 +21,15 @@ const Card2 = () => {
         </button>
         {showImages && (
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <img src="/assets/images/McDonalds2/mac2.jpg" alt="McDonald's - Diseño interactivo de menú" className="w-full h-52 object-cover" />
-            <img src="/assets/images/McDonalds2/mac1.jpg" alt="McDonald's - Página principal del sitio" className="w-full h-52 object-cover" />
-            <img src="/assets/images/McDonalds2/mac3.jpg" alt="McDonald's - Sección de promociones" className="w-full h-52 object-cover" />
-            <img src="/assets/images/McDonalds2/mac4.jpg" alt="McDonald's - Vista móvil de la aplicación" className="w-full h-52 object-cover" />
-            <img src="/assets/images/McDonalds2/mac5.jpg" alt="McDonald's - Diseño del carrito de compras" className="w-full h-52 object-cover" />
-            <img src="/assets/images/McDonalds2/mac6.jpg" alt="McDonald's - Página de contacto" className="w-full h-52 object-cover" />
-            <img src="/assets/images/McDonalds2/mac7.jpg" alt="McDonald's - Detalles del producto" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac1.webp" alt="McDonald's - Diseño interactivo de menú" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac2.webp" alt="McDonald's - Página principal del sitio" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac3.webp" alt="McDonald's - Sección de promociones" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac4.webp" alt="McDonald's - Vista móvil de la aplicación" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac5.webp" alt="McDonald's - Diseño del carrito de compras" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac6.webp" alt="McDonald's - Página de contacto" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac7.webp" alt="McDonald's - Detalles del producto" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac8.webp" alt="McDonald's - Detalles del producto" className="w-full h-52 object-cover" />
+            <img src="/assets/images/McDonals2.webp/mac9.webp" alt="McDonald's - Detalles del producto" className="w-full h-52 object-cover" />         
           </div>
         )}
       </div>

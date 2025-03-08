@@ -6,7 +6,7 @@ const Card1 = () => {
   return (
     <div className="rounded-lg shadow-md bg-white overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <img 
-        src="/assets/images/Maraton-asics/mar1.jpg" 
+        src="/assets/images/Maraton-asics.webp/mar8.webp" 
         alt="Project preview" 
         className="w-full h-52 object-cover" 
       />
@@ -21,13 +21,13 @@ const Card1 = () => {
         </button>
         {showImages && (
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <img src="/assets/images/Maraton-asics/mar1.jpg" alt="Maratón Asics - Vista previa del evento" className="w-full h-52 object-cover" />
-            <img src="/assets/images/Maraton-asics/mar2.jpg" alt="Maratón Asics - Participantes corriendo" className="w-full h-52 object-cover" />
-            <img src="/assets/images/Maraton-asics/mar3.jpg" alt="Maratón Asics - Línea de meta" className="w-full h-52 object-cover" />
-            <img src="/assets/images/Maraton-asics/mar4.jpg" alt="Maratón Asics - Medallas y premios" className="w-full h-52 object-cover" />
-            <img src="/assets/images/Maraton-asics/mar5.jpg" alt="Maratón Asics - Público animando" className="w-full h-52 object-cover" />
-            <img src="/assets/images/Maraton-asics/mar6.jpg" alt="Maratón Asics - Zona de inscripción" className="w-full h-52 object-cover" />
-            <img src="/assets/images/Maraton-asics/mar7.jpg" alt="Maratón Asics - Equipo organizador" className="w-full h-52 object-cover" />
+            <img src="/assets/images/Maraton-asics.webp/mar6.webp" alt="Maratón Asics - Vista previa del evento" className="w-full h-52 object-cover" />
+            <img src="/assets/images/Maraton-asics.webp/mar4.webp" alt="Maratón Asics - Participantes corriendo" className="w-full h-52 object-cover" />
+            <img src="/assets/images/Maraton-asics.webp/mar8.webp" alt="Maratón Asics - Línea de meta" className="w-full h-52 object-cover" />
+            <img src="/assets/images/Maraton-asics.webp/mar9.webp" alt="Maratón Asics - Medallas y premios" className="w-full h-52 object-cover" />
+            <img src="/assets/images/Maraton-asics.webp/mar10.webp" alt="Maratón Asics - Público animando" className="w-full h-52 object-cover" />
+            <img src="/assets/images/Maraton-asics.webp/mar3.webp" alt="Maratón Asics - Zona de inscripción" className="w-full h-52 object-cover" />
+            <img src="/assets/images/Maraton-asics.webp/mar7.webp" alt="Maratón Asics - Equipo organizador" className="w-full h-52 object-cover" />
           </div>
         )}
       </div>
