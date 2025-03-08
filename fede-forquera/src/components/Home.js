@@ -28,7 +28,7 @@ function Home() {
       '/assets/images/go7.webp',
       '/assets/images/mc1.webp',
       '/assets/images/riv3.webp',
-      '/assets/images/BarrioHistóricoEnColonia/col10.webp',
+      '/assets/images/col10.webp',
       '/assets/images/mc2.webp',
       '/assets/images/mc5.webp',
       '/assets/images/vod6.webp',

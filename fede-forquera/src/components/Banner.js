@@ -6,7 +6,7 @@ function Banner() {
     <header className="relative w-full" style={{ height: '150vh' }}>
       {/* Imagen de fondo */}
       <img
-        src="/assets/images/fede/fede10-recortado.jpg"
+        src="/assets/images/fede/fede10-recortado.webp"
         alt="Fondo"
         className="mb-8 absolute inset-0 w-full h-full object-cover md:object-top"
       />
