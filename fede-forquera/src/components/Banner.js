@@ -40,7 +40,7 @@ function Banner() {
 </div>
 
         <Link
-          to="/about-me"
+          to="/AboutMe"
           data-aos="fade-up"
           data-aos-duration="2500"
           className="inline-block bg-gradient-to-r from-[#fbcfe8] via-[#f472b6] to-[#9333ea] text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300"

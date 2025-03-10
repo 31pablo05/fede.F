@@ -45,8 +45,9 @@ function Contact() {
 
     const handleWhatsApp = () => {
         const whatsappMessage = `Hola, soy ${formData.name || 'un cliente interesado'}. Me gustaría solicitar información sobre tus servicios.`;
-        window.open(`https://wa.me/YOUR_PHONE_NUMBER?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
+        window.open(`https://wa.me/54114567890?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
     };
+    
 
     const handleEmailDirect = () => {
         const mailtoLink = `mailto:YOUR_EMAIL@example.com?subject=Consulta sobre tus servicios&body=Hola, soy ${formData.name || 'un cliente interesado'}. Me gustaría solicitar más información.`;
