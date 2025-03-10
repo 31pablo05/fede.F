@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { sendEmail } from './emailjs'; // Asegúrate que la ruta sea la correcta
+import { sendEmail } from '../components/emailjs'; // Asegúrate que la ruta sea la correcta
 import { 
     FaUser, FaEnvelope, FaCommentDots, FaWhatsapp, 
     FaPaperPlane, FaCheckCircle, FaTimesCircle 

@@ -1,12 +1,12 @@
 // Portfolio.js
 import React from 'react';
-import BannerVideo from './BannerVideo';
-import Card1 from './Card1';
-import Card2 from './Card2';
-import Card3 from './Card3';
-import Card4 from './Card4';
-import Card5 from './Card5';
-import Card6 from './Card6';
+import BannerVideo from '../components/BannerVideo';
+import Card1 from '../components/Card1';
+import Card2 from '../components/Card2';
+import Card3 from '../components/Card3';
+import Card4 from '../components/Card4';
+import Card5 from '../components/Card5';
+import Card6 from '../components/Card6';
 
 function Portfolio() {
   return (
